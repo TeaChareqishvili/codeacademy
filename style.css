@@ -1,0 +1,211 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', 'monospace';
+    list-style: none;
+    text-decoration: none;
+}
+
+main{
+    max-width:1440px;
+    width:100%;
+    margin:auto;
+}
+
+.heading{
+    background-color:brown;
+     position:fixed; 
+     top:0;
+     left:0;
+    width:100vw;
+    height:5rem;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.nav-bar,.nav-ul{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   
+
+}
+
+.link{
+    color:aliceblue;
+    font-size:1.7rem;
+    font-weight:700;
+    padding: 2.5rem 3rem; 
+}
+
+#welcome-section{
+    background-color:rgb(41, 40, 40);
+    background: linear-gradient(45deg, #3a3d40 0%, #181719 100%);
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:aliceblue;
+    font-size:4.5rem;
+    font-weight:700;
+}
+
+.welcome-p{
+    color:brown;
+    font-size:2rem;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+
+#projects{
+    background-color:rgb(77, 116, 188);
+  
+}
+
+.myproject{
+    color:aliceblue;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-size:3.7rem;
+    font-weight:700;
+    padding:3rem 0;
+   text-decoration-line: underline;  
+}
+
+.project-tile{
+    display:grid;
+    
+    grid-template-columns: repeat(3,auto);
+     gap: 2rem; 
+     
+}
+
+.project{
+    max-width:400px;
+    background-color:#3a3d40;
+    margin:2rem 2rem;
+}
+
+.pro-img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+}
+
+.projects-title{
+   
+    padding: 1rem 2rem;
+    text-align: center;
+    color:aliceblue;
+    font-size:1.6rem;
+    font-weight: 400;
+}
+
+span{
+    color:#3a3d40;
+    transition: all 0.9;
+}
+.projects-title:hover span{
+    transition: all 0.9;
+    color:brown;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+   color:aliceblue;
+   background-color: #3a3d40;
+   font-size:1.4rem;
+   font-weight: 700;
+   padding:10px 20px;
+   cursor:pointer;
+   margin-bottom:2rem;
+}
+.btn>a{
+    color:aliceblue;
+}
+.btn:hover{
+    background-color: brown;
+}
+em{
+    color:aliceblue;
+}
+
+#adios-section{
+    background-color:#3a3d40;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:4rem;
+   
+}
+.border{
+    width:100vw;
+    height:4px;
+    background-color:brown;
+    margin:3rem;
+
+}
+.final{
+  text-align: center;
+}
+.final>p{
+    color:aliceblue;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding-top:0.5rem
+}
+
+h2{
+    color:aliceblue;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-size:3.7rem;
+    font-weight:700;
+    padding-top:3rem;
+}
+
+.fa{
+    color: aliceblue;
+    width:30px;
+    height:30px;
+}
+
+.logos{
+    display:flex;
+    justify-content:center;  
+    padding:3rem; 
+}
+
+.social-logos{
+    color:aliceblue;
+    font-size:1rem;
+    padding-right:1rem;
+    font-weight: 700;
+
+}
+
+.fake{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.fake-p{
+    color:aliceblue;
+    font-size:1.2rem;
+    font-weight: 700;
+    padding-left:2rem;
+    padding-right:2rem;
+}
